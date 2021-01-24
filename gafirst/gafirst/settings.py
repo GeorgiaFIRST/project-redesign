@@ -1,4 +1,5 @@
 import os  # isort:skip
+from decouple import config
 gettext = lambda s: s
 DATA_DIR = os.path.dirname(os.path.dirname(__file__))
 """
@@ -23,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'ucg7iie_89%a46*c5x1!(towc=y$=o))@leij6_c17@43n6r4c'
+SECRET_KEY = config('SECRET')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -113,7 +114,8 @@ TEMPLATES = [
                 'django.template.context_processors.tz',
                 'sekizai.context_processors.sekizai',
                 'django.template.context_processors.static',
-                'cms.context_processors.cms_settings'
+                'cms.context_processors.cms_settings',
+                'django.template.context_processors.request'
             ],
             'loaders': [
                 'django.template.loaders.filesystem.Loader',
@@ -139,6 +141,10 @@ MIDDLEWARE = [
     'cms.middleware.language.LanguageCookieMiddleware'
 ]
 
+AUTHENTICATION_BACKENDS = [
+    'allauth.account.auth_backends.AuthenticationBackend'
+]
+
 INSTALLED_APPS = [
     'djangocms_admin_style',
     'django.contrib.auth',
@@ -149,6 +155,10 @@ INSTALLED_APPS = [
     'django.contrib.sitemaps',
     'django.contrib.staticfiles',
     'django.contrib.messages',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.google',
     'cms',
     'menus',
     'sekizai',
@@ -180,6 +190,19 @@ INSTALLED_APPS = [
     'djangocms_video',
     'gafirst'
 ]
+
+SOCIALACCOUNT_PROVIDERS = {
+    'google': {
+        # For each OAuth based provider, either add a ``SocialApp``
+        # (``socialaccount`` app) containing the required client
+        # credentials, or list them here:
+        'APP': {
+            'client_id': config('ClientID'),
+            'secret': config('SECRETKEY'),
+            'key': ''
+        }
+    }
+}
 
 LANGUAGES = (
     ## Customize this
