@@ -1,0 +1,8 @@
+asgiref==3.3.1
+dj-database-url==0.5.0
+Django==3.1.5
+djangocms-installer==2.0.0
+pytz==2020.5
+six==1.15.0
+sqlparse==0.4.1
+tzlocal==2.1
