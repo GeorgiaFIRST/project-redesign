@@ -1,4 +1,5 @@
 ```bash
+npm i
 npm start
 ```
-to build
+to start development server
