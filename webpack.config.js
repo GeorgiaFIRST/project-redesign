@@ -15,6 +15,10 @@ module.exports = {
             exclude: /node_modules/
         },
         {
+            test: /.(png|jpg)$/,
+            loader: 'url-loader'
+        },
+        {
             test: /\.css$/,
             use: [
               MiniCssExtractPlugin.loader,

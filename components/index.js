@@ -3,21 +3,25 @@ import React from 'react';
 let Index = () => {
     return (
         <div>
-            */ Example Code, it looks horrible. */
-            <div className="container px-8 pt-40 pb-40 mx-auto lg:px-4 h-100 bg-cover bg-center" style={{'backgroundImage': 'url(/images/4026-bg.png)'}}>
-                <div className="container mx-auto">
-                    <h1 className="text-2xl text-white rounded-md px-2 w-auto">Georgia FIRST</h1>
-                    <p className="rounded-md  text-white px-2 w-auto">This is a description</p>
-                </div>
-                <div>
-                    <button className="btn-primary transition duration-300 ease-in-out focus:outline-none focus:shadow-outline bg-purple-700 hover:bg-purple-900 text-white font-normal py-2 px-4 mr-1 rounded">
-                        Learn More
-                    </button>
-                    
-                </div>
+            <div class="overlay">
+                <div class="pic-wrapper">
+                    <figure className="pic-1"></figure>
+                    <figure className="pic-2"></figure>
+                    <figure className="pic-3"></figure>
+                    <figure className="pic-4"></figure>
+                  </div>
             </div>
-        </div>
+            <div className="px-8 pt-40 pb-40 mx-auto lg:px-4 h-100" >
+                <div className="container mx-auto banner-content">
+                    <h1 className="p-2 text-5xl text-white rounded-md px-2 w-auto">Georgia<i>FIRST</i></h1>
+                    <p className="p-2 text-md rounded-md  text-white px-2 w-auto">Combining the excitement of sport with the rigors of science and technology</p>
+                </div>
+
+            </div>
+        
+    </div>
+
     );
-  };
+};
 
 export default Index;
