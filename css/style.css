@@ -415,7 +415,9 @@ ul {
         font-size: 50px;
         font-family: "Poppins", sans-serif;
         font-weight: 600;
-        margin-bottom: 30px; }
+        margin-bottom: 25px; 
+        margin-top: 70px;
+      }
       .home_banner_area .banner_inner .banner_content p {
         font-size: 15px;
         font-weight: 300;
@@ -3240,7 +3242,7 @@ h6 {
   text-align: left;
   padding: 40px 30px 45px;
   background-image: url(../img/logo.png);
-  background-position: right top;
+  background-position: center top;
   background-repeat: no-repeat;
   transition: all 300ms linear 0s; }
   .service-area .single-service .service-icon {
@@ -3419,7 +3421,7 @@ h6 {
     font-weight: 400;
     margin-bottom: 25px; }
   .area-heading p {
-    font-size: 14px;
+    font-size: 17px;
     font-family: "Poppins", sans-serif;
     color: #7f7f7f;
     margin-bottom: 40px;
@@ -3430,8 +3432,23 @@ h6 {
 
 /* End  About Area css 
 ============================================================================================ */
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
+
+/* Archive Area css
+============================================================================================ */
+.archives-area{ 
+    position: relative;
+    padding: 130px 0;
+}
+  .archives-area .area-heading h5{
+    font-size: 30px;
+    color: #1d1d1d;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 10px;
+    line-height: 58px;
+  }
+/* End  Archive Area css 
+============================================================================================ */
+
 /* Feature Area css
 ============================================================================================ */
 .feature-area {
