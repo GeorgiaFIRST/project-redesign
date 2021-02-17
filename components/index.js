@@ -1,14 +1,15 @@
 import React from 'react';
+import index from "./index.module.css";
 
 let Index = () => {
     return (
         <div>
-            <div class="overlay">
-                <div class="pic-wrapper">
-                    <figure className="pic-1"></figure>
-                    <figure className="pic-2"></figure>
-                    <figure className="pic-3"></figure>
-                    <figure className="pic-4"></figure>
+            <div className={index.overlay}>
+                <div className={`${index.pic_wrapper}`}>
+                    <div className={`${index.figure} ${index.pic_1}`}></div>
+                    <div className={`${index.figure} ${index.pic_2}`}></div>
+                    <div className={`${index.figure} ${index.pic_3}`}></div>
+                    <div className={`${ index.figure} ${index.pic_4}`}></div>
                   </div>
             </div>
             <div className="px-8 pt-40 pb-40 mx-auto lg:px-4 h-100" >
