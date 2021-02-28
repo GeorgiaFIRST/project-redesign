@@ -678,7 +678,9 @@ ul {
 /* End Home Banner Area css
 ============================================================================================ */
 .page-banner{
-  background-image:linear-gradient(183deg,rgba(12,113,195,0.79) 10%,rgba(111,229,243,0.96) 81%),url("../img/banner.v1.jpg")!important;
+  /* linear-gradient(183deg,rgba(12,113,195,0.79) 10%,rgba(111,229,243,0.96) 81%), 
+  -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(85%, rgba(22, 22, 22, 0.7)), to(#1a1a1a)),*/
+  background-image:linear-gradient(183deg,rgba(133, 11, 11, 0.79) 10%,rgba(141, 5, 5, 0.96) 81%), url("../img/banner.v1.jpg")!important;
 }
 
 /* banner section start
@@ -3764,7 +3766,9 @@ h6 {
   z-index: 2;
 }
 /*---------------------------------------------------- */
-
+.reduced-padding {
+  padding-top:0px;
+}
 @media (min-width:320px)  { 
   .youtube-video {
     display: none;
@@ -3804,5 +3808,10 @@ h6 {
     margin-left: 25%;
   }
  }
-
+ .arrow-object {
+  position: absolute;
+  bottom: -1px;
+  width: 100%;
+  left: 0;
+} 
 /*# sourceMappingURL=style.css.map */
