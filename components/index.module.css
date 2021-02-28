@@ -11,11 +11,6 @@
   -webkit-animation: slideShow 24s linear infinite 0s;
 }
 
-.banner {
-    background: url("/images/4026-bg.png");
-    height: 100%;
-    width: 100%;
-  }
   .banner_content h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;

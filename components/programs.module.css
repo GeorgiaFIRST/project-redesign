@@ -1,0 +1,153 @@
+.lego_league_jr {
+  background: #47dc57;
+}
+.lego_league {
+  background: #ed1c24;
+}
+.ftc {
+  background: #ff5733;
+}
+
+.frc {
+  background: #1a68b2;
+}
+
+.service_area {
+  /* margin-left: 150px; */
+  margin-top: 30%;
+  background: white;
+  padding: 100px;
+}
+.service_area .single_service {
+  color: white;
+  text-align: left;
+  padding: 40px 30px 45px;
+  background-position: center top;
+  background-repeat: no_repeat;
+  transition: all 300ms linear 0s;
+  min-height: 500px;
+}
+.service_area .single_service .service_icon {
+  background-image: url(../public/images/logo.png);
+  width: 210px;
+  height: 150px;
+  background-repeat: no_repeat;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
+  line-height: 112px;
+}
+.service_area .single_service .service_icon:after {
+  content: "";
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  /* background: #fcefed; */
+  border-radius: 100%;
+  left: 0;
+  z-index: -1;
+  top: 0;
+}
+.service_area .single_service .service_icon i {
+  font-size: 40px;
+  color: #050817;
+}
+.service_area .single_service .service_content h5 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 18px;
+}
+.service_area .single_service .service_content p {
+  line-height: 27px;
+  font-size: 14px;
+  margin-bottom: 35px;
+}
+.service_area .single_service .service_content a {
+  font-size: 14px;
+  color: #fff;
+  position: relative;
+  font-weight: 500;
+}
+.service_area .single_service .service_content a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: _6px;
+  height: 2px;
+  width: 90px;
+  background: #edf1f6;
+}
+.service_area .single_service .service_content a:hover:after {
+  background: #1a68b2;
+  transition: all 300ms linear 0s;
+}
+
+.col_lg_4:nth_child(1) .single_service .service_icon:after {
+  background: #fca6a6;
+}
+
+.col_lg_4:nth_child(2) .single_service {
+  margin-top: 50px;
+}
+.col_lg_4:nth_child(2) .single_service .service_icon:after {
+  background: #71beb4;
+}
+
+.col_lg_4:nth_child(3) .single_service .service_icon:after {
+  background: #ed92dd;
+}
+
+.service_page.service_area {
+  background: #fff;
+}
+.service_page.service_area .single_service {
+  background: #2b237c;
+}
+
+.area_heading {
+  margin-bottom: 90px;
+  text-align: center;
+  margin-top: 15px;
+}
+.area_heading h3 {
+  font-size: 30px;
+  color: #1d1d1d;
+  position: relative;
+}
+.area_heading p {
+  font-size: 14px;
+  color: #7f7f7f;
+}
+.area_heading .line:after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 5px;
+  background: #1a68b2;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -16px;
+}
+.area_heading .line:before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 1px;
+  background: #1a68b2;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -14px;
+}
+.area_padding {
+  padding: 130px 0;
+}
+
+.area_padding_bottom {
+  padding-bottom: 130px;
+}
+
+.area_padding_top {
+  padding-top: 130px;
+}
