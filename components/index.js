@@ -3,7 +3,7 @@ import index from "./index.module.css";
 
 let Index = () => {
     return (
-        <div>
+        <div className={index.banner}>
             <div className={index.overlay}>
                 <div className={`${index.pic_wrapper}`}>
                     <div className={`${index.figure} ${index.pic_1}`}></div>
