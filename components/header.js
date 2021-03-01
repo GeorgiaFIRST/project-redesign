@@ -15,66 +15,66 @@ let Header = () => {
             </a>
             </div>
 
-            <div class="inline-block relative">
+            <div className="inline-block relative">
                 <a className="ml-72 bg-white text-gray-700 font-semibold py-2 px-4 rounded inline-flex items-center" href="#index">
                     Home
                 </a>
             </div>
 
-            <div class="group dropdown inline-block relative">
-                <button class="bg-white text-gray-700 font-semibold py-2 px-4 rounded inline-flex items-center">
-                    <span class="mr-1">About Us</span>
+            <div className="group dropdown inline-block relative">
+                <button className="bg-white text-gray-700 font-semibold py-2 px-4 rounded inline-flex items-center">
+                    <span className="mr-1">About Us</span>
                 </button>
                 
-                <ul class="dropdown-menu absolute hidden text-gray-700 pt-1 w-44 group-hover:block">
-                    <li class=""><a class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Mission and Impact</a></li>
-                    <li class=""><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Board Members</a></li>
-                    <li class=""><a class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Sponsors</a></li>
-                    <li class=""><a class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Policies</a></li>
+                <ul className="dropdown-menu absolute hidden text-gray-700 pt-1 w-44 group-hover:block">
+                    <li className=""><a className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Mission and Impact</a></li>
+                    <li className=""><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Board Members</a></li>
+                    <li className=""><a className="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Sponsors</a></li>
+                    <li className=""><a className="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Policies</a></li>
                 </ul>
             </div>
 
-            <div class="group dropdown inline-block relative">
-                <button class="bg-white text-gray-700 font-semibold py-2 px-4 rounded inline-flex items-center">
-                    <span class="mr-1">Events</span>
+            <div className="group dropdown inline-block relative">
+                <button className="bg-white text-gray-700 font-semibold py-2 px-4 rounded inline-flex items-center">
+                    <span className="mr-1">Events</span>
                 </button>
                 
-                <ul class="dropdown-menu absolute hidden text-gray-700 pt-1 w-44 group-hover:block">
-                    <li class=""><a class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Calendar</a></li>
-                    <li class=""><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Virtual Challenges</a></li>
-                    <li class=""><a class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Programs</a></li>
+                <ul className="dropdown-menu absolute hidden text-gray-700 pt-1 w-44 group-hover:block">
+                    <li className=""><a className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Calendar</a></li>
+                    <li className=""><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Virtual Challenges</a></li>
+                    <li className=""><a className="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Programs</a></li>
                 </ul>
             </div>
 
-            <div class="inline-block relative">
+            <div className="inline-block relative">
                 <a className="bg-white text-gray-700 font-semibold py-2 px-4 rounded inline-flex items-center" href="#index">
                     News
                 </a>
             </div>
 
-            <div class="group dropdown inline-block relative">
-                <button class="bg-white text-gray-700 font-semibold py-2 px-4 rounded inline-flex items-center">
-                    <span class="mr-1">Get Involved</span>
+            <div className="group dropdown inline-block relative">
+                <button className="bg-white text-gray-700 font-semibold py-2 px-4 rounded inline-flex items-center">
+                    <span className="mr-1">Get Involved</span>
                 </button>
                 
-                <ul class="dropdown-menu absolute hidden text-gray-700 pt-1 w-44 group-hover:block">
-                    <li class=""><a class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Sponsor</a></li>
-                    <li class=""><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Coach/Mentor</a></li>
-                    <li class=""><a class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Volunteer</a></li>
+                <ul className="dropdown-menu absolute hidden text-gray-700 pt-1 w-44 group-hover:block">
+                    <li className=""><a className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Sponsor</a></li>
+                    <li className=""><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Coach/Mentor</a></li>
+                    <li className=""><a className="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Volunteer</a></li>
                 </ul>
             </div>
 
-            <div class="group dropdown inline-block relative">
-                <button class="bg-white text-gray-700 font-semibold py-2 px-4 rounded inline-flex items-center">
-                    <span class="mr-1">Resources</span>
+            <div className="group dropdown inline-block relative">
+                <button className="bg-white text-gray-700 font-semibold py-2 px-4 rounded inline-flex items-center">
+                    <span className="mr-1">Resources</span>
                 </button>
                 
-                <ul class="dropdown-menu absolute hidden text-gray-700 pt-1 w-44 group-hover:block">
-                    <li class=""><a class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">FIRST Resources</a></li>
-                    <li class=""><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">DE</a></li>
-                    <li class=""><a class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Peach Pits</a></li>
-                    <li class=""><a class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">GA FIRST Symposium</a></li>
-                    <li class=""><a class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Grants</a></li>
+                <ul className="dropdown-menu absolute hidden text-gray-700 pt-1 w-43 group-hover:block">
+                    <li className=""><a className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">FIRST Resources</a></li>
+                    <li className=""><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">DE</a></li>
+                    <li className=""><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Peach Pits</a></li>
+                    <li className=""><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">GA FIRST Symposium</a></li>
+                    <li className=""><a className="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Grants</a></li>
                 </ul>
             </div>
         
