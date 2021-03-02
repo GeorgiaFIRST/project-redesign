@@ -23,7 +23,7 @@
 
 .aboutArea {
   position: relative;
-  margin-left: 25%;
+  margin-left: 15%;
 }
 .aboutArea:after {
   content: "";
@@ -92,6 +92,7 @@
   background: url("../public/images/about-photo.jpg");
   height: 100%;
   width: 100%;
+  margin-left: 30px;
   background-repeat: no-repeat;
 }
 

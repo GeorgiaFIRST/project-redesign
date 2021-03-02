@@ -26,7 +26,7 @@ let Header = () => {
                     <span className="mr-1">About Us</span>
                 </button>
                 
-                <ul className="dropdown-menu absolute hidden text-gray-700 pt-1 w-44 group-hover:block">
+                <ul className="dropdown-menu absolute hidden text-gray-700 pt-1 w-36 group-hover:block">
                     <li className=""><a className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Mission and Impact</a></li>
                     <li className=""><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Board Members</a></li>
                     <li className=""><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Sponsors</a></li>
@@ -39,7 +39,7 @@ let Header = () => {
                     <span className="mr-1">Events</span>
                 </button>
                 
-                <ul className="dropdown-menu absolute hidden text-gray-700 pt-1 w-44 group-hover:block">
+                <ul className="dropdown-menu absolute hidden text-gray-700 pt-1 w-36 group-hover:block">
                     <li className=""><a className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Calendar</a></li>
                     <li className=""><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Virtual Challenges</a></li>
                     <li className=""><a className="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Programs</a></li>
@@ -57,7 +57,7 @@ let Header = () => {
                     <span className="mr-1">Get Involved</span>
                 </button>
                 
-                <ul className="dropdown-menu absolute hidden text-gray-700 pt-1 w-44 group-hover:block">
+                <ul className="dropdown-menu absolute hidden text-gray-700 pt-1 w-36 group-hover:block">
                     <li className=""><a className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Sponsor</a></li>
                     <li className=""><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Coach/Mentor</a></li>
                     <li className=""><a className="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Volunteer</a></li>
@@ -69,7 +69,7 @@ let Header = () => {
                     <span className="mr-1">Resources</span>
                 </button>
                 
-                <ul className="dropdown-menu absolute hidden text-gray-700 pt-1 w-44 group-hover:block">
+                <ul className="dropdown-menu absolute hidden text-gray-700 pt-1 w-36 group-hover:block">
                     <li className=""><a className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">FIRST Resources</a></li>
                     <li className=""><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">DE</a></li>
                     <li className=""><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Peach Pits</a></li>
