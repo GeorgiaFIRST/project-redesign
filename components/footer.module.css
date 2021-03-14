@@ -68,17 +68,18 @@
     color: #888888;
 }
 .donateButton {
-    background-color: #36bfec;
-    font-size: 16px;
-    padding: 18px 20px;
+    background-color: rgb(21, 127, 257);
+    font-size: 17px;
+    padding: 10px;
     border-radius: 8px;
     transition-duration: 0.4s;
-    width: 120px;
+    width: 100px;
     text-align: center;
-    font-weight: bold;
+    font-weight: 500;
+    color: #eeeeee;
 }
 .donateButton:hover {
-    background-color: #0182ad;
+    background-color: rgb(0, 79, 193);
 }
 /*
 

@@ -23,7 +23,7 @@
 
 .aboutArea {
   position: relative;
-  margin-left: 15%;
+  margin-left: 5%;
 }
 .aboutArea:after {
   content: "";
@@ -92,7 +92,7 @@
   background: url("../public/images/about-photo.jpg");
   height: 100%;
   width: 100%;
-  margin-left: 30px;
+  margin-left: 35px;
   background-repeat: no-repeat;
 }
 
@@ -116,10 +116,10 @@
   }
 }
 .areaHeading h4 {
-  font-size: 45px;
+  font-size: 46px;
   color: #1d1d1d;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
   margin-bottom: 40px;
   line-height: 58px;
 }
@@ -130,12 +130,12 @@
   margin-bottom: 25px;
 }
 .areaHeading p {
-  font-size: 14px;
+  font-size: 17px;
   font-family: "Poppins", sans-serif;
   color: #7f7f7f;
   margin-bottom: 40px;
   line-height: 27px;
-  padding-right: 65px;
+  padding-right: 30px;
 }
 .areaHeading .main_btn:hover {
   border: 1px solid #1a68b2;
