@@ -16,8 +16,8 @@ let Programs = () => {
                                 LEGO®
                                 League Jr.</h5>
                             <p>Captures young curiosity by exploring real-world scientific challenges, learning teamwork, and working with motorized LEGO® elements.
-
                             </p>
+                            <br/>
                             <a href="#">Read More</a>
                         </div>
                     </div>
@@ -45,6 +45,7 @@ let Programs = () => {
                                 Tech
                                 Challenge</h5>
                             <p>Teams of middle and high school-aged students are challenged to design, build, and program a robot to play a floor game against other teams’ creations.                            </p>
+                            <br/>
                             <a href="#">Read More</a>
                         </div>
                     </div>

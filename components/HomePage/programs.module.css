@@ -28,8 +28,8 @@
   height: 600px;
 }
 .service_area .single_service .service_icon {
-  background-image: url(../public/images/logo.png);
-  width: 210px;
+  background-image: url(../../public/images/logo.png);
+  width: 215px;
   height: 150px;
   background-repeat: no_repeat;
   text-align: center;

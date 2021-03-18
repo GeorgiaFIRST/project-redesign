@@ -89,7 +89,7 @@
 }
 
 .about_image {
-  background: url("../public/images/about-photo.jpg");
+  background: url("../../public/images/about-photo.jpg");
   height: 100%;
   width: 100%;
   margin-left: 35px;
