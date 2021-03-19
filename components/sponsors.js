@@ -5,7 +5,6 @@ let Sponsors = () => {
     return (
         <section className={`${sponsors.brands_area}`}>
             <h3 className={`${sponsors.header3}`}>Sponsors</h3>
-            <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-10">
                         <div class="owl-carousel brand-carousel">
@@ -33,7 +32,6 @@ let Sponsors = () => {
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
         </section>
     );

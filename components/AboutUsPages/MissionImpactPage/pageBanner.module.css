@@ -31,7 +31,7 @@
           font-size: 15px;
           font-weight: 300;
           line-height: 27px;
-          margin-bottom: 50px; }
+        }
     .page_banner{
         background-image:linear-gradient(183deg,rgba(133, 11, 11, 0.79) 10%,rgba(141, 5, 5, 0.96) 81%), url("/images/banner.v1.jpg")!important;
     }

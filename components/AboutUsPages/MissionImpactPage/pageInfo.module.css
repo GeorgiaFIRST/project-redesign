@@ -1,0 +1,39 @@
+.latestBlogArea {
+    margin-bottom: 70px;
+}
+.areaHeading {
+    margin-bottom: 90px;
+    margin-top: 80px; 
+    margin-left: 170px;
+    margin-right: 170px;
+    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Trebuchet MS', sans-serif;*/
+    text-align: left;
+}
+.areaHeading h3 {
+    font-size: 45px;
+    color: #1d1d1d;
+    position: relative;
+    font-weight: 900; }
+.areaHeading p {
+    font-size: 18px;
+    color: #7f7f7f; }
+.areaHeading .line:after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 5px;
+    background: #1a68b2;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -16px; }
+.areaHeading .line:before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background: #1a68b2;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -14px; 
+}

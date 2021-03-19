@@ -8,14 +8,12 @@ let PageBanner = () => {
         <div className={`${pageBanner.banner_inner} ${pageBanner.page_banner}`}>
           <div className={`${pageBanner.overlay}`}></div>
 
-          <div className="container banner_inner d-flex align-items-center">
+          <div className="banner_inner d-flex align-items-center">
             <div className="row">
-              <div className="col-xl-12">
                 <div className={`${pageBanner.banner_content}`}>
                   <h3 className="text-center">Mission Statement</h3>
                   <p className="text-center">Impact the next generation of changemakers!</p>
                 </div>
-              </div>
             </div>
           </div>
         </div>
