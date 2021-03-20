@@ -72,7 +72,7 @@ let Header = () => {
                 <ul className="dropdown-menu absolute hidden text-gray-700 pt-1 w-36 group-hover:block">
                     <li className=""><Link href="/"><a className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap">Sponsor</a></Link></li>
                     <li className=""><Link href="/"><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap">Start a Team</a></Link></li>
-                    <li className=""><Link href="/"><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap">Coach/Mentor</a></Link></li>
+                    <li className=""><Link href="coach-mentor"><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap">Coach/Mentor</a></Link></li>
                     <li className=""><Link href="/"><a className="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap">Volunteer</a></Link></li>
                 </ul>
             </div>
