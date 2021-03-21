@@ -13,7 +13,6 @@
 }
 
 .service_area {
-  /* margin-left: 150px; */
   margin-top: 18%;
   background: white;
   padding: 100px;
@@ -80,7 +79,7 @@
   background: #edf1f6;
 }
 .service_area .single_service .service_content a:hover:after {
-  background: #1a68b2;
+  background: #16528a;
   transition: all 300ms linear 0s;
 }
 
@@ -125,7 +124,7 @@
   position: absolute;
   width: 20px;
   height: 5px;
-  background: #1a68b2;
+  background: #16528a;
   left: 50%;
   transform: translateX(-50%);
   top: -16px;
@@ -135,7 +134,7 @@
   position: absolute;
   width: 100px;
   height: 1px;
-  background: #1a68b2;
+  background: #16528a;
   left: 50%;
   transform: translateX(-50%);
   top: -14px;
@@ -151,3 +150,4 @@
 .area_padding_top {
   padding-top: 130px;
 }
+
