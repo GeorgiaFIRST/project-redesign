@@ -5,7 +5,7 @@ import Header from "../components/header";
 import HomeAbout from "../components/HomePage/homeAbout";
 import Footer from "../components/footer";
 import Sponsors from "../components/sponsors";
-
+import News from "../components/HomePage/news";
 const App = () => {
     return (
         <div>
@@ -13,6 +13,7 @@ const App = () => {
             <Index></Index>
             <Programs></Programs>
             <HomeAbout></HomeAbout>
+            <News></News>
             <Sponsors></Sponsors>
             <Footer></Footer>
         </div>

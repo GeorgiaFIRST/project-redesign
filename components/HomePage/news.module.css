@@ -1,0 +1,42 @@
+.areaHeading h4 {
+  margin-left: 5%;
+  font-size: 46px;
+  color: #1d1d1d;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  margin-bottom: 40px;
+  line-height: 58px;
+}
+.imageContainer {
+  display: inline-block;
+  position: relative;
+  margin: 5px;
+  list-style-type: none;
+}
+.imageText {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  opacity: 0;
+  font: 300 36px helvetica, sans-serif;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  display: block;
+  padding: 80px 0 0;
+  line-height: 1;
+  text-align: center;
+}
+.imageText:hover {
+  opacity: 0.7;
+}
+.imageGallery {
+  width: 100%;
+  height: 100%;
+}
