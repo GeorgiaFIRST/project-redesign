@@ -1,0 +1,49 @@
+.brands_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(100%);
+    margin-left: 8%;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+.brands_icon1 {
+    background-image: url(../public/images/brands/1.png);
+    width: 12%;
+    height: 100px;
+    background-repeat: no-repeat;
+}
+.brands_icon2 {
+    background-image: url(../public/images/brands/2.png);
+    width: 12%;
+    height: 100px;
+    background-repeat: no-repeat;
+}
+.brands_icon3 {
+    background-image: url(../public/images/brands/3.png);
+    width: 15%;
+    height: 100px;
+    background-repeat: no-repeat;
+}
+.brands_icon4 {
+    background-image: url(../public/images/brands/4.png);
+    width: 15%;
+    height: 100px;
+    background-repeat: no-repeat;
+}
+.brands_icon5 {
+    background-image: url(../public/images/brands/5.png);
+    width: 15%;
+    height: 100px;
+    background-repeat: no-repeat;
+}
+.header3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: gray;
+    margin-bottom: 40px;
+}
+.brands_area {
+    text-align: center;
+}
