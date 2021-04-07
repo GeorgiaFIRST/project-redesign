@@ -2,6 +2,15 @@ import React from 'react';
 import footer from "./footer.module.css";
 
 let Footer = () => {
+    /*
+    <h4>Sitemap</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="mentor.html">Coach/Mentor</a></li>
+                </ul>
+    */
+
     return (
         <div className={`${footer.footerArea}`}>
             <div className={`${footer.singleWidget}`}>
@@ -9,13 +18,6 @@ let Footer = () => {
                 <p>Heaven fruitful doesn't over lesser days appear creeping seasons so behold bearing days open</p>
 
                 <br/>
-
-                <h4>Sitemap</h4>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="news.html">News</a></li>
-                    <li><a href="mentor.html">Coach/Mentor</a></li>
-                </ul>
             </div>
            
             <div className={`${footer.singleWidget}`}>
