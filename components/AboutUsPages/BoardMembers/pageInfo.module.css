@@ -1,0 +1,98 @@
+.latestBlogArea {
+    margin-bottom: 70px;
+}
+.areaHeading {
+    margin-bottom: 90px;
+    margin-top: 80px; 
+    margin-left: 170px;
+    margin-right: 170px;
+    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Trebuchet MS', sans-serif;*/
+    text-align: left;
+}
+.areaHeading h3 {
+    font-size: 45px;
+    color: #1d1d1d;
+    position: relative;
+    font-weight: 900; }
+.areaHeading p {
+    font-size: 18px;
+    color: #7f7f7f; }
+.areaHeading .line:after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 5px;
+    background: #1a68b2;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -16px; }
+.areaHeading .line:before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background: #1a68b2;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -14px; 
+}
+
+.card {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:200px;
+    width:1000px;
+    pointer-events: none;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    padding: 30px;
+    background: white;
+    border-radius: 5px;
+  
+    margin-bottom: 50px;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    display: -webkit-box;
+    display: flex;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  .card:after {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    border-radius: 50%;
+    left: 0;
+    bottom: -50px;
+    box-shadow: 0 30px 20px rgba(0, 0, 0, 0.3);
+  }
+  .card .card_content {
+    margin: auto;
+    text-align: center;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+  }
+  .card h1 {
+    -webkit-transform: translateZ(100px);
+            transform: translateZ(100px);
+  }
+  .card p {
+    -webkit-transform: translateZ(50px);
+            transform: translateZ(50px);
+    display: block;
+  }
+  .card p.related {
+    -webkit-transform: translateZ(80px);
+            transform: translateZ(80px);
+    font-style: italic;
+  }
+  .card a {
+    color: #28a5df !important;
+    pointer-events: auto;
+  }
+  

@@ -38,43 +38,10 @@
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-    }
+          }
     .arrow_object {
         position: absolute;
         bottom: -1px;
         width: 100%;
         left: 0;
       } 
-      .youtube_video {
-        position: relative;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        left: 35%;
-      }
-      
-      @media (min-width:320px)  { 
-        .youtube_video {
-          display: none;
-        }
-      }
-      @media (min-width:425px)  {
-        .youtube_video {
-          margin-left: 50px;
-          display: block;
-        }
-        .youtube_video iframe {
-          width: 300px;
-          height: 215px; 
-          }
-      }
-      @media (min-width:600px)  {
-        .youtube_video {
-          margin-left:0px;
-        } 
-        .youtube_video iframe {
-          width: 560px;
-          height: 315px; 
-        }
-      }
-
-      
