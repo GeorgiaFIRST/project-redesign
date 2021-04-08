@@ -3,6 +3,7 @@ import news from "./news.module.css";
 
 let News = () => {
   return (
+    <div className={news.newsContainer}>
     <div className="container p-10">
       <div className={`${news.areaHeading}`}>
         <h4>Latest News</h4>
@@ -57,6 +58,7 @@ let News = () => {
           <img className={news.imageGallery} src="/images/banner.jpg" />
         </li>
       </div>
+    </div>
     </div>
   );
 };
