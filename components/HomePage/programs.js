@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import programs from "./programs.module.css";
 
 let Programs = () => {
@@ -60,7 +61,9 @@ let Programs = () => {
                                 Competition</h5>
                             <p>Teams of middle and high school-aged students are challenged to design, build, and program a robot to play a floor game against other teams’ creations.
                             </p>
-                            <a href="#">Read More</a>
+                            <ul>
+                                <li><Link href="/FRC"><a>Read More</a></Link></li>
+                            </ul>
                         </div>
                     </div>
                 </div>

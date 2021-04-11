@@ -69,7 +69,6 @@
     border-radius: 50%;
     left: 0;
     bottom: -50px;
-    box-shadow: 0 30px 20px rgba(0, 0, 0, 0.3);
   }
   .card .card_content {
     margin: auto;

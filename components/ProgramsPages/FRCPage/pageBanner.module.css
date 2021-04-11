@@ -33,7 +33,7 @@
           line-height: 27px;
         }
     .page_banner{
-        background-image:linear-gradient(183deg,rgba(179, 27, 27, 0.79) 10%,rgba(141, 5, 5, 0.96) 81%), url("/images/banner.jpg")!important;
+        background-image:linear-gradient(183deg,rgba(133, 11, 11, 0.79) 10%,rgba(141, 5, 5, 0.96) 81%), url("/images/banner.jpg")!important;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
