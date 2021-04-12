@@ -58,7 +58,7 @@
             backface-visibility: hidden;
     display: -webkit-box;
     display: flex;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
     position: relative;
   }
   .card:after {

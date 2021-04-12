@@ -119,7 +119,6 @@ let PageInfo = () => {
                 </div>
                     <br/>
                     <br/>
-                    <hr/>
                 </div>           
             </div>
         </section>
